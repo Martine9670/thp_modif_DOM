@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Exo Parcours DOM</title>
+</head>
+<body>
+  <h1>Exercice Parcours DOM</h1>
+
+  <!-- Paragraphes -->
+  <p>Premier paragraphe</p>
+  <p id="coucou">Salut, je suis le contenu de l'id coucou !</p>
+  <p>Troisième paragraphe</p>
+
+  <!-- Liens -->
+  <a href="https://example.com/1">Lien 1</a>
+  <a href="https://example.com/2">Lien 2</a>
+  <a href="https://example.com/3">Lien 3</a>
+
+  <!-- Éléments avec la classe "compte-moi" -->
+  <div class="compte-moi">Div compte-moi 1</div>
+  <div class="compte-moi">Div compte-moi 2</div>
+  <ul class="compte-moi">
+    <li>Li compte-moi 1</li>
+    <li>Li compte-moi 2</li>
+  </ul>
+
+  <!-- Liste ordonnée avec des li portant "compte-moi" -->
+  <ol>
+    <li class="compte-moi">Li 1 dans ol</li>
+    <li>Li 2 dans ol</li>
+    <li class="compte-moi">Li 3 dans ol</li>
+  </ol>
+
+  <!-- Un div contenant 2 ul -->
+  <div>
+    <ul>
+      <li>Visible 1</li>
+      <li>Visible 2</li>
+    </ul>
+    <ul>
+      <li style="display:none;">Texte caché mais accessible</li>
+      <li>Visible</li>
+    </ul>
+  </div>
+
+  <script src="script_parcours_DOM.js"></script>
+</body>
+</html>
